@@ -15,8 +15,8 @@ ROOT_PASS_FILE='.env'
 # project-related constants
 PROJECT_NAME='rage-analytics'
 PROJECT_URL="https://github.com/pkosmides/${PROJECT_NAME}"
-PROJECT_RAW_URL="https://raw.githubusercontent.com/e-ucm/${PROJECT_NAME}/"
-PROJECT_ISSUE_URL="https://github.com/e-ucm/${PROJECT_NAME}/issues/"
+PROJECT_RAW_URL="https://raw.githubusercontent.com/pkosmides/${PROJECT_NAME}/"
+PROJECT_ISSUE_URL="https://github.com/pkosmides/${PROJECT_NAME}/issues/"
 COMPOSE_PROJ_NAME='rage'
 COMPOSE_NET_NAME="${COMPOSE_PROJ_NAME}_default"
 # external constants
@@ -199,7 +199,7 @@ function update_compose() {
 
 # gets composition file and pulls all images from DockerHub
 function get_composition_and_containers() {
-  BASE="https://raw.githubusercontent.com/e-ucm/rage-analytics/"
+  BASE="https://raw.githubusercontent.com/pkosmides/rage-analytics/"
   COMPOSE_YML="${BASE}master/docker-compose.yml"
   EXTENSION_YML="${BASE}master/${COMPOSE_FILE}"
   wget ${COMPOSE_YML} -O docker-compose.yml  
