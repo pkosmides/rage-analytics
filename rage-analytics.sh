@@ -14,7 +14,7 @@
 ROOT_PASS_FILE='.env'
 # project-related constants
 PROJECT_NAME='rage-analytics'
-PROJECT_URL="https://github.com/e-ucm/${PROJECT_NAME}"
+PROJECT_URL="https://github.com/pkosmides/${PROJECT_NAME}"
 PROJECT_RAW_URL="https://raw.githubusercontent.com/e-ucm/${PROJECT_NAME}/"
 PROJECT_ISSUE_URL="https://github.com/e-ucm/${PROJECT_NAME}/issues/"
 COMPOSE_PROJ_NAME='rage'
